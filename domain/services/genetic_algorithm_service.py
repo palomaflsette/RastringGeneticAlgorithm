@@ -26,7 +26,7 @@ class GeneticAlgorithmService:
         for simu in range(num_experimentos):
             print()
             print('-------------------------------------------------------------------')
-            print('Experimento número = ', simu)
+            print('Experimento número = ', simu+1)
             self.model.run(
                 no_plot=False,
                 disable_progress_bar=False,
